@@ -1,3 +1,53 @@
-@media screen and (min-width: 480px) {
+h1 {
+    color: white;
+    font-style: italic;
+    text-align: center;
+}
+img {
+    float: left;
+}
+.sidebar {
+    width: 30%;
+    float: right;
+    background-color: yellow;
 
+}
+.test-box {
+    border-left: 2px solid red;
+    border-right: 4px solid blue;
+    border-top: 6px solid orange;
+    border-bottom: 8px solid black;
+}
+.test-box {
+    border: 2px solid red;
+    padding: 6px; 
+    margin: 20px;
+    background-color: white;
+}
+p {
+    font-family: sans-serif;
+}
+body {
+    background: green;
+}
+.important {
+    color: red;
+}
+.cat-climate {
+    color: purple;
+}
+@media screen and (min-width: 480px) and (max-width: 767px) {
+body {background-color: black;
+    color: white;
+ }
+}
+@media screen and (min-width: 768px {
+body {
+    background-color: yellowgreen;
+ }
+ .column {
+     width: 220px;
+     float: left;
+     padding: 15px;
+ }
 }
